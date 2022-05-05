@@ -1,0 +1,7 @@
+{
+  "prefix": "i18nPlugin",
+  "paths": {
+      "i18nPlugin": "."
+  },
+  "translations": ["translations/zh-CN.json"]
+}
