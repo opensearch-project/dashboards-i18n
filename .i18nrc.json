@@ -3,5 +3,5 @@
   "paths": {
       "i18nPlugin": "."
   },
-  "translations": ["translations/zh-CN.json"]
+  "translations": ["translations/demo.json"]
 }
