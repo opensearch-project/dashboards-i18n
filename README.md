@@ -1,32 +1,32 @@
+<img src="https://opensearch.org/assets/brand/SVG/Logo/opensearch_logo_default.svg" height="64px"/>
+
+- [i18n-plugin](#i18n-plugin)
+- [Contributing](#contributing)
+- [Code of Conduct](#code-of-conduct)
+- [Security](#security)
+- [License](#license)
+- [Copyright](#copyright)
+
 # i18n-plugin
 
-A OpenSearch Dashboards plugin
+The i18n-plugin lets you build localized OpenSearch Dashboards platform and plugins.
 
----
+## Contributing
 
-## Development
+See [developer guide](DEVELOPER_GUIDE.md) and [how to contribute to this project](CONTRIBUTING.md).
 
-See the [OpenSearch Dashboards contributing
-guide](https://github.com/opensearch-project/OpenSearch-Dashboards/blob/master/CONTRIBUTING.md) for instructions
-setting up your development environment.
+## Code of Conduct
 
-    ## Scripts
-    <dl>
-      <dt><code>yarn osd bootstrap</code></dt>
-      <dd>Execute this to install node_modules and setup the dependencies in your plugin and in OpenSearch Dashboards
-      </dd>
-
-      <dt><code>yarn plugin-helpers build</code></dt>
-      <dd>Execute this to create a distributable version of this plugin that can be installed in OpenSearch Dashboards
-      </dd>
-    </dl>
-
+This project has adopted the [Amazon Open Source Code of Conduct](CODE_OF_CONDUCT.md). For more information see the [Code of Conduct FAQ](https://aws.github.io/code-of-conduct-faq), or contact [opensource-codeofconduct@amazon.com](mailto:opensource-codeofconduct@amazon.com) with any additional questions or comments.
 
 ## Security
 
-See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more information.
+If you discover a potential security issue in this project we ask that you notify AWS/Amazon Security via our [vulnerability reporting page](http://aws.amazon.com/security/vulnerability-reporting/). Please do **not** create a public GitHub issue.
 
 ## License
 
-This project is licensed under the Apache-2.0 License.
+This project is licensed under the [Apache v2.0 License](LICENSE).
 
+## Copyright
+
+Copyright OpenSearch Contributors. See [NOTICE](NOTICE.txt) for details.
