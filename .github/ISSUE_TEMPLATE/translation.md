@@ -7,9 +7,7 @@ assignees: ''
 ---
 
 **What is this translation file?**
-- [ ] create a new file on plain opensearch dashboards
-- [ ] create a new file including plugin translations
-- [ ] add plugin translations
+- [ ] create a new translation file 
 - [ ] update a current translation file
 
 **If it involves plugins translation, what are the plugins?**
