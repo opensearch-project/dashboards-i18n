@@ -31,7 +31,7 @@ Fork this repository on GitHub, and clone locally with `git clone`.
 │   └── plugins
 │       └── i18n-plugin
 ```
-6. Config localization in i18n-plugin. Add a locale json file in `translations` directory of the i18n-plugin. Specify the path in `.i18nrc.json`. For example, if the locale json file you added is called `zh-CN.json`, the path should be `"translations": ["translations/zh-CN.json"`.
+6. Config localization in i18n-plugin. Add a locale json file in `translations` directory of the i18n-plugin. Specify the path in `.i18nrc.json`. For example, if the locale json file you added is called `zh-CN.json`, the path should be `"translations": ["translations/zh-CN.json"]`.
 7. Config localization in OpenSearch Dashboards. cd into the `config` directory of the OpenSearch-Dashboards source code directory. Add `i18n.locale: "{your locale}"` in `opensearch_dashboards.yml` file.
 8. Run `yarn osd bootstrap` under `Opensearch-Dashboards`.
 
