@@ -4,12 +4,9 @@ This document contains a list of maintainers in this repo. See [opensearch-proje
 
 ## Current Maintainers
 
-| Maintainer        | GitHub ID                                         | Affiliation |
-| ----------------- | ------------------------------------------------- | ----------- |
-| Anan              | [ananzh](https://github.com/ananzh)               | Amazon      |
-| Bishoy Boktor     | [boktorbb-amzn](https://github.com/boktorbb-amzn) | Amazon      |
-| Rocky             | [kavilla](https://github.com/kavilla)             | Amazon      |
-| Sean Neumann      | [seanneumann](https://github.com/seanneumann)     | Amazon      |
-| Tommy Markley     | [tmarkley](https://github.com/tmarkley)           | Amazon      |
-| Josh Romero       | [joshuarrrr](https://github.com/joshuarrrr)       | Amazon      |
-| Ashwin P Chandran | [ashwin-pc](https://github.com/ashwin-pc)         | Amazon      |
+| Maintainer                | GitHub ID                                           | Affiliation |
+| ------------------------- | --------------------------------------------------- | ----------- |
+| Anan Zhuang               | [ananzh](https://github.com/ananzh)                 | Amazon      |
+| Josh Romero               | [joshuarrrr](https://github.com/joshuarrrr)         | Amazon      |
+| Kawika (Rocky) Avilla     | [kavilla](https://github.com/kavilla)               | Amazon      |
+| Sean Neumann              | [seanneumann](https://github.com/seanneumann)       | Amazon      |
