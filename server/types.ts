@@ -4,6 +4,6 @@
  */
 
 // eslint-disable-next-line @typescript-eslint/no-empty-interface
-export interface I18nPluginPluginSetup {}
+export interface I18nDashboardsPluginSetup {}
 // eslint-disable-next-line @typescript-eslint/no-empty-interface
-export interface I18nPluginPluginStart {}
+export interface I18nDashboardsPluginStart {}

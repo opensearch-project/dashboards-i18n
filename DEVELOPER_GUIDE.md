@@ -8,7 +8,7 @@
 
 ## Developer guide
 
-We're glad you're here. i18n-plugin is a community driven plugin for localization. To use it, here's what you need to do.
+We're glad you're here. dashboards-i18n is a community driven plugin for localization. To use it, here's what you need to do.
 
 ### Forking and Cloning
 
@@ -17,23 +17,35 @@ Fork this repository on GitHub, and clone locally with `git clone`.
 ### Environment Setup
 
 1. Download OpenSearch. You could clone the [OpenSearch repo](https://github.com/opensearch-project/OpenSearch.git), use [docker](https://opensearch.org/docs/latest/opensearch/install/docker/) or [artifact](https://opensearch.org/docs/latest/opensearch/install/tar/). Make sure the version matches the OpenSearch Dashboards version.
+
 2. Setup the environment to run OpenSearch Dashboards. You will need to install [node.js](https://nodejs.org/en/), [nvm](https://github.com/nvm-sh/nvm/blob/master/README.md), and [yarn](https://yarnpkg.com/) in your environment to properly pull down dependencies to build and bootstrap.
+
 3. Download the OpenSearch-Dashboards source code.
 
    See the [OpenSearch Dashboards developer guide](https://github.com/opensearch-project/OpenSearch/blob/main/DEVELOPER_GUIDE.md) for more instructions on setting up your development environment.
 
 4. Change your node version to the version specified in `.node-version` inside the OpenSearch-Dashboards root directory.
-5. cd into the `plugins` directory of the OpenSearch-Dashboards source code directory. Clone [i18n-plugin](https://github.com/opensearch-project/i18n-plugin.git) into the `plugins` directory. Ultimately, your directory structure should look like this:
+
+5. cd into the `plugins` directory of the OpenSearch-Dashboards source code directory. Clone [dashboards-i18n](https://github.com/opensearch-project/dashboards-i18n.git) into the `plugins` directory. Ultimately, your directory structure should look like this:
 
 ```md
 .
 ├── OpenSearch-Dashboards
 │   └── plugins
-│       └── i18n-plugin
+│       └── dashboards-i18n
 ```
-6. Config localization in i18n-plugin. Add a locale json file in `translations` directory of the i18n-plugin. Specify the path in `.i18nrc.json`. For example, if the locale json file you added is called `zh-CN.json`, the path should be `"translations": ["translations/zh-CN.json"]`.
-7. Config localization in OpenSearch Dashboards. cd into the `config` directory of the OpenSearch-Dashboards source code directory. Add `i18n.locale: "{your locale}"` in `opensearch_dashboards.yml` file.
-8. Run `yarn osd bootstrap` under `Opensearch-Dashboards`.
+
+6. Make sure the version of dashboards-i18n plugin in the `opensearch_dashboards.json` file matches the version of OpenSearch Dashboards. If the version needs to be updated, you can use the provided script to automatically update the `opensearchDashboardsVersion` in the `opensearch_dashboards.json` file. To update the version, run the following command in the `dashboards-i18n` directory:
+
+```bash
+yarn update-version
+```
+
+7. Config localization in dashboards-i18n. Add a locale json file in `translations` directory of the dashboards-i18n. Specify the path in `.i18nrc.json`. For example, if the locale json file you added is called `zh-CN.json`, the path should be `"translations": ["translations/zh-CN.json"]`.
+
+8. Config localization in OpenSearch Dashboards. cd into the `config` directory of the OpenSearch-Dashboards source code directory. Add `i18n.locale: "{your locale}"` in `opensearch_dashboards.yml` file.
+
+9. Run `yarn osd bootstrap` under `Opensearch-Dashboards`.
 
 ### Run
 
@@ -44,9 +56,9 @@ Fork this repository on GitHub, and clone locally with `git clone`.
   - You must have OpenSearch running.
 
 ### Example
-  
+
 1. Setup environment. Please refer to [Environment Setup](#environment-setup).
-2. Config localization in i18n-plugin. Add the following example `zh-CN.json` file in `translations` directory. In `.i18nrc.json`, add the path `"translations": ["translations/zh-CN.json"`. 
+2. Config localization in dashboards-i18n. Add the following example `zh-CN.json` file in `translations` directory. In `.i18nrc.json`, add the path `"translations": ["translations/zh-CN.json"`.
 
 
 ```json
@@ -153,7 +165,7 @@ Fork this repository on GitHub, and clone locally with `git clone`.
 
 ### New locale
 
-Currently, we support en/en-US (English), es/es-LA (Spanish), fr/fr-FR (French), de/de-DE (German), ja/ja-JP (Japanese), ko/ko-KR (Korean), zh/zh-CN (Chinese). If your locale is not in it, please open an issue in OpenSearch Dashboards.
+Currently, we support en/en-US (English), es/es-LA (Spanish), fr/fr-FR (French), de/de-DE (German), ja/ja-JP (Japanese), ko/ko-KR (Korean), ru/ru-RU (Russian), zh/zh-CN (Chinese). If your locale is not in it, please open an issue in OpenSearch Dashboards.
 
 ### Contribute
 

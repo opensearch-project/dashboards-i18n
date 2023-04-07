@@ -1,15 +1,15 @@
 <img src="https://opensearch.org/assets/brand/SVG/Logo/opensearch_logo_default.svg" height="64px"/>
 
-- [i18n-plugin](#i18n-plugin)
+- [dashboards-i18n](#dashboards-i18n)
 - [Contributing](#contributing)
 - [Code of Conduct](#code-of-conduct)
 - [Security](#security)
 - [License](#license)
 - [Copyright](#copyright)
 
-# i18n-plugin
+# dashboards-i18n
 
-The i18n-plugin lets you build localized OpenSearch Dashboards platform and plugins.
+The dashboards-i18n lets you build localized OpenSearch Dashboards platform and plugins.
 
 ## Contributing
 

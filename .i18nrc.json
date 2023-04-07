@@ -1,7 +1,7 @@
 {
-  "prefix": "i18nPlugin",
+  "prefix": "i18nDashboards",
   "paths": {
-    "i18nPlugin": "."
+    "i18nDashboards": "."
   },
   "translations": []
 }
