@@ -11,10 +11,10 @@ import {
   Logger,
 } from '../../../src/core/server';
 
-import { I18nPluginPluginSetup, I18nPluginPluginStart } from './types';
+import { I18nDashboardsPluginSetup, I18nDashboardsPluginStart } from './types';
 import { defineRoutes } from './routes';
 
-export class I18nPluginPlugin implements Plugin<I18nPluginPluginSetup, I18nPluginPluginStart> {
+export class I18nDashboardsPlugin implements Plugin<I18nDashboardsPluginSetup, I18nDashboardsPluginStart> {
   private readonly logger: Logger;
 
   constructor(initializerContext: PluginInitializerContext) {
@@ -22,7 +22,7 @@ export class I18nPluginPlugin implements Plugin<I18nPluginPluginSetup, I18nPlugi
   }
 
   public setup(core: CoreSetup) {
-    this.logger.debug('i18n-plugin: Setup');
+    this.logger.debug('dashboards-i18n: Setup');
     const router = core.http.createRouter();
 
     // Register server side APIs
@@ -32,7 +32,7 @@ export class I18nPluginPlugin implements Plugin<I18nPluginPluginSetup, I18nPlugi
   }
 
   public start(core: CoreStart) {
-    this.logger.debug('i18n-plugin: Started');
+    this.logger.debug('dashboards-i18n: Started');
     return {};
   }
 
