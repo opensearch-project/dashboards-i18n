@@ -3,5 +3,5 @@
   "paths": {
     "i18nDashboards": "."
   },
-  "translations": []
+  "translations": ["translations/es.json"]
 }

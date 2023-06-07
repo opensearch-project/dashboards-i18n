@@ -14,7 +14,8 @@ import {
 import { I18nDashboardsPluginSetup, I18nDashboardsPluginStart } from './types';
 import { defineRoutes } from './routes';
 
-export class I18nDashboardsPlugin implements Plugin<I18nDashboardsPluginSetup, I18nDashboardsPluginStart> {
+export class I18nDashboardsPlugin
+  implements Plugin<I18nDashboardsPluginSetup, I18nDashboardsPluginStart> {
   private readonly logger: Logger;
 
   constructor(initializerContext: PluginInitializerContext) {

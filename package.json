@@ -1,12 +1,13 @@
 {
   "name": "i18n-dashboards",
-  "version": "2.1.0.0",
+  "version": "3.0.0.0",
   "description": "plugin for opensearch-dashboards translation",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "node ../../scripts/eslint .",
-    "update-version": "node scripts/update_opensearch_dashboards_version.js"
+    "lint": "../../scripts/use_node ../../scripts/eslint .",
+    "update-version": "../../scripts/use_node scripts/update_opensearch_dashboards_version.js",
+    "plugin-helpers": "../../scripts/use_node ../../scripts/plugin_helpers"
   },
   "repository": {
     "type": "git",
