@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "../../scripts/use_node ../../scripts/eslint .",
     "update-version": "../../scripts/use_node scripts/update_opensearch_dashboards_version.js",
-    "plugin-helpers": "../../scripts/use_node ../../scripts/plugin_helpers"
+    "plugin-helpers": "../../scripts/use_node ../../scripts/plugin_helpers",
+    "build": "yarn plugin-helpers build"
   },
   "repository": {
     "type": "git",

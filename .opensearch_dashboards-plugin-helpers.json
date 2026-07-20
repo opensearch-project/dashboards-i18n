@@ -1,0 +1,10 @@
+{
+  "buildSourcePatterns": [
+    ".i18nrc.json",
+    "yarn.lock",
+    "tsconfig.json",
+    "package.json",
+    "index.{js,ts}",
+    "{common,lib,server,webpackShims,translations,utils,target}/**/*"
+  ]
+}
